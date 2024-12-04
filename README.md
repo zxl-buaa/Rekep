@@ -16,6 +16,7 @@ This is the official demo code for [ReKep](https://rekep-robot.github.io/) imple
 Note that this codebase is best run with a display. For running in headless mode, refer to the [instructions in OmniGibson](https://behavior.stanford.edu/omnigibson/getting_started/installation.html).
 
 - Install [OmniGibson](https://behavior.stanford.edu/omnigibson/getting_started/installation.html). This code is tested on [this commit](https://github.com/StanfordVL/OmniGibson/tree/cc0316a0574018a3cb2956fcbff3be75c07cdf0f).
+- ⚠️在安装OmniGibson时，要安装的pytorch版本>=2.2.0。最好选择4090显卡，以更好地支持issac-sim。在安装仿真器的时候，可能会下载一些资源，在终端显示的过程中，本地链接到下载资源会有一些卡顿。
 
 NOTE: If you encounter the warning `We did not find Isaac Sim under ~/.local/share/ov/pkg.` when running `./scripts/setup.sh` for OmniGibson, first ensure that you have installed Isaac Sim. Assuming Isaac Sim is installed in the default directory, then provide the following path `/home/[USERNAME]/.local/share/ov/pkg/isaac-sim-2023.1.1` (replace `[USERNAME]` with your username).
 
